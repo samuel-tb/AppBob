@@ -1,0 +1,195 @@
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h4,h6{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1,5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1,5;
+}
+
+/*Container section*/
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/*Section*/
+
+.colored-section{
+    background-color: #ff8172;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/*Title Section*/
+
+#title .container-fluid{
+    background-color: #051d35;
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.icone{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icone:hover{
+    color: #ff4c68;
+}
+
+/*Navigation bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+/*imagem titulo*/
+
+.img-cachorro{
+    transform: rotate(25deg);
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    width: 53%;
+    
+    
+    
+}
+
+/* Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*Fectures Section*/
+
+#features{
+    
+    position: relative;
+    z-index: 1;   
+   
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.features-title{
+    font-size: 1.5rem;
+}
+
+/*testimonials section*/
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials-img2{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    margin-bottom: -11px;
+}
+
+/*press section*/
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-log{
+    width: 5%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1,5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CTA section */
+
+
+/* Footer section */
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+/* Site responsivo */
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+        
+        
+    }
+    
+
+    .img-cachorro{
+    position: static;
+    transform: rotate(0);
+    }
+}
+
+
+
